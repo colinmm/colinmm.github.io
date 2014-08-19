@@ -1,6 +1,8 @@
 @import "settings";
 @import "foundation";
 
+$text: #555555;
+
 .left {
 	background-image: url("../img/IMG_0514.JPG");
 	left: 0;
@@ -28,31 +30,23 @@
 	height: 4rem;
 }
 
+h2, p {
+	color: $text;
+}
+
 .fa {
 	color: #555555;
 	padding: 1rem;
 }
 
 @media #{$small-only} { 
-	.fa {
-		color: #FFFFFF;
-	}
-	h2 {
-		color: #FFFFFF;
-	}
-	p {
+	.fa, h2, p {
 		color: #FFFFFF;
 	}
 }
 
 @media #{$medium-only} { 
-	.fa {
-		color: #FFFFFF;
-	}
-	h2 {		
-		color: #FFFFFF;
-	}
-	p {
+	.fa, h2, p {		
 		color: #FFFFFF;
 	}
 }
