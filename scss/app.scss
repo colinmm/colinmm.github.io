@@ -27,7 +27,7 @@ $text: #555555;
 }
 
 .icons {
-	height: 4rem;
+	padding: 0 1rem;
 }
 
 h2, p {
@@ -36,7 +36,6 @@ h2, p {
 
 .fa {
 	color: #555555;
-	padding: 0 1rem;
 }
 
 @media #{$small-only} { 
