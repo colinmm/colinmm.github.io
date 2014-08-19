@@ -8369,37 +8369,32 @@ th.hide-for-touch {
 
 /* line 25, ../scss/app.scss */
 .writeup {
-  padding-left: 1rem;
+  padding-left: 2.5rem;
 }
 
 /* line 29, ../scss/app.scss */
-.icons {
-  padding: 0 1rem;
-}
-
-/* line 33, ../scss/app.scss */
 h2, p {
   color: #555555;
 }
 
-/* line 37, ../scss/app.scss */
+/* line 33, ../scss/app.scss */
 .fa {
   color: #555555;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 42, ../scss/app.scss */
+  /* line 38, ../scss/app.scss */
   .fa, h2, p {
     color: #FFFFFF;
   }
 
-  /* line 45, ../scss/app.scss */
+  /* line 41, ../scss/app.scss */
   .fa {
     padding: 0 .5rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 51, ../scss/app.scss */
+  /* line 47, ../scss/app.scss */
   .fa, h2, p {
     color: #FFFFFF;
   }
