@@ -8345,7 +8345,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 6, ../scss/app.scss */
+/* line 7, ../scss/app.scss */
 .left {
   background-image: url("../img/IMG_0514.JPG");
   left: 0;
@@ -8354,48 +8354,42 @@ th.hide-for-touch {
   height: 100%;
 }
 
-/* line 14, ../scss/app.scss */
+/* line 15, ../scss/app.scss */
 .right {
   height: 100%;
   right: 0;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
-/* line 20, ../scss/app.scss */
-.right--footer {
-  background-color: #333;
-  right: 0;
-}
-
-/* line 25, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 .writeup {
   padding-left: 2.5rem;
 }
 
-/* line 29, ../scss/app.scss */
+/* line 25, ../scss/app.scss */
 h2, p {
   color: #555555;
 }
 
-/* line 33, ../scss/app.scss */
+/* line 29, ../scss/app.scss */
 .fa {
   color: #555555;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 38, ../scss/app.scss */
+  /* line 34, ../scss/app.scss */
   .fa, h2, p {
-    color: #FFFFFF;
+    color: white;
   }
 
-  /* line 41, ../scss/app.scss */
+  /* line 37, ../scss/app.scss */
   .fa {
-    padding: 0 .5rem;
+    padding: 0 .5rem 0 0;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 47, ../scss/app.scss */
+  /* line 43, ../scss/app.scss */
   .fa, h2, p {
-    color: #FFFFFF;
+    color: white;
   }
 }

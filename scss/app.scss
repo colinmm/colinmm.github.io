@@ -2,6 +2,7 @@
 @import "foundation";
 
 $text: #555555;
+$background: #FFFFFF;
 
 .left {
 	background-image: url("../img/IMG_0514.JPG");
@@ -14,12 +15,7 @@ $text: #555555;
 .right {
 	height: 100%;
 	right: 0;
-	margin-top: 20%;
-}
-
-.right--footer {
-	background-color: #333;
-	right: 0;
+	margin-top: 25%;
 }
 
 .writeup {
@@ -31,20 +27,20 @@ h2, p {
 }
 
 .fa {
-	color: #555555;
+	color: $text;
 }
 
 @media #{$small-only} { 
 	.fa, h2, p {
-		color: #FFFFFF;
+		color: $background;
 	}
 	.fa {
-		padding: 0 .5rem;
+		padding: 0 .5rem 0 0;
 	}
 }
 
 @media #{$medium-only} { 
 	.fa, h2, p {		
-		color: #FFFFFF;
+		color: $background;
 	}
 }
