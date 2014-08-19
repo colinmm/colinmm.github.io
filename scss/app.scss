@@ -43,6 +43,9 @@ h2, p {
 	.fa, h2, p {
 		color: #FFFFFF;
 	}
+	.fa {
+		padding: 0 .5rem;
+	}
 }
 
 @media #{$medium-only} { 

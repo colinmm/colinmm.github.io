@@ -8387,9 +8387,14 @@ h2, p {
   .fa, h2, p {
     color: #FFFFFF;
   }
+
+  /* line 46, ../scss/app.scss */
+  .fa {
+    padding: 0 .5rem;
+  }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 49, ../scss/app.scss */
+  /* line 52, ../scss/app.scss */
   .fa, h2, p {
     color: #FFFFFF;
   }
