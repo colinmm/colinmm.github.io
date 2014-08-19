@@ -8379,7 +8379,7 @@ h2, p {
 /* line 37, ../scss/app.scss */
 .fa {
   color: #555555;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 @media only screen and (max-width: 40em) {
