@@ -1,0 +1,58 @@
+@import "settings";
+@import "foundation";
+
+.left {
+	background-image: url("../img/IMG_0514.JPG");
+	left: 0;
+	top: 0;
+	position: fixed;
+	height: 100%;
+}
+
+.right {
+	height: 100%;
+	right: 0;
+	margin-top: 20%;
+}
+
+.right--footer {
+	background-color: #333;
+	right: 0;
+}
+
+.writeup {
+	padding-left: 1rem;
+}
+
+.icons {
+	height: 4rem;
+}
+
+.fa {
+	color: #555555;
+	padding: 1rem;
+}
+
+@media #{$small-only} { 
+	.fa {
+		color: #FFFFFF;
+	}
+	h2 {
+		color: #FFFFFF;
+	}
+	p {
+		color: #FFFFFF;
+	}
+}
+
+@media #{$medium-only} { 
+	.fa {
+		color: #FFFFFF;
+	}
+	h2 {		
+		color: #FFFFFF;
+	}
+	p {
+		color: #FFFFFF;
+	}
+}
