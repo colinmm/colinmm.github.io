@@ -4,52 +4,60 @@
 $text: #555555;
 
 .left {
-	background-image: url("../img/IMG_0514.JPG");
 	left: 0;
+	height: 100%;
+	padding:2.5rem 2rem;
+	position: fixed;
+	text-align: right;
+}
+
+.content {
+	padding: 0;
+}
+
+.contact {
+	padding-bottom: .5rem;
+}
+
+.right {
+	background-image: url("../img/IMG_0514.JPG");
+	right: 0;
 	top: 0;
 	position: fixed;
 	height: 100%;
 }
 
-.right {
-	height: 100%;
-	right: 0;
-	margin-top: 20%;
-}
-
-.right--footer {
-	background-color: #333;
-	right: 0;
-}
-
-.writeup {
-	padding-left: 1rem;
-}
-
-.icons {
-	height: 4rem;
-}
-
-h2, p {
+h3, p {
 	color: $text;
+	font-family: "Courier New", Courier, monospace;
 }
 
-.fa {
-	color: #555555;
-	padding: 0 1rem;
+a {
+	color: inherit;
+	text-decoration: none;
+	&:hover {
+		color: inherit;
+		text-decoration: line-through;
+	}
+}
+
+p {
+	font-size: .75rem;
+	margin: 0;
+}
+
+i {
+	padding-left: .2rem;
 }
 
 @media #{$small-only} { 
-	.fa, h2, p {
-		color: #FFFFFF;
-	}
-	.fa {
-		padding: 0 .5rem;
+	span {
+		background-color: #FFFFFF;
 	}
 }
 
 @media #{$medium-only} { 
-	.fa, h2, p {		
+	h2, p {		
 		color: #FFFFFF;
 	}
 }
