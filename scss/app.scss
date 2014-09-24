@@ -2,6 +2,7 @@
 @import "foundation";
 
 $text: #555555;
+$background: #FFFFFF;
 
 .left {
     left: 0;
@@ -9,6 +10,7 @@ $text: #555555;
     padding:2.5rem 2rem;
     position: fixed;
     text-align: right;
+    z-index: 10;
 }
 
 .content {
@@ -52,12 +54,12 @@ i {
 
 @media #{$small-only} { 
     span {
-        background-color: #FFFFFF;
+        background-color: $background;
     }
 }
 
 @media #{$medium-only} { 
-    h2, p {     
-        color: #FFFFFF;
+    span {
+        background-color: $background;
     }
 }
